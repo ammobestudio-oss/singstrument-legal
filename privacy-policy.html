@@ -1,398 +1,975 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy - SingStrument</title>
+  <meta name="description"
+        content="Official Privacy Policy for SingStrument, developed by Ammobe Studio.">
+
+  <title>Privacy Policy | SingStrument</title>
 
   <style>
+    :root {
+      --text: #1e293b;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --primary: #2563eb;
+      --surface: #f8fafc;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      line-height: 1.65;
-      color: #222;
+      margin: 0;
+      padding: 32px 18px;
+      background: #ffffff;
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+    }
+
+    main {
       max-width: 850px;
-      margin: 40px auto;
-      padding: 0 20px;
+      margin: auto;
     }
 
-    h1, h2 {
-      color: #111;
+    h1 {
+      font-size: 2rem;
+      line-height: 1.3;
+      color: #0f172a;
     }
 
-    .updated {
-      color: #666;
-      font-size: 0.9em;
-      margin-bottom: 24px;
+    h2 {
+      font-size: 1.35rem;
+      color: #0f172a;
+      margin-top: 36px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
     }
 
-    strong {
-      color: #111;
+    h3 {
+      font-size: 1.1rem;
+      margin-top: 24px;
+    }
+
+    p, li {
+      overflow-wrap: break-word;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--primary);
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .summary {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      margin: 24px 0;
+    }
+
+    .summary p:last-child {
+      margin-bottom: 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+
+    th, td {
+      border: 1px solid var(--border);
+      padding: 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: var(--surface);
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-top: 12px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 20px 14px;
+      }
+
+      h1 {
+        font-size: 1.7rem;
+      }
+
+      table {
+        font-size: 0.9rem;
+      }
+
+      th, td {
+        padding: 8px;
+      }
     }
   </style>
 </head>
 
 <body>
+<main>
 
-  <h1>Privacy Policy</h1>
+  <header>
+    <h1>Privacy Policy</h1>
 
-  <div class="updated">
-    Last updated: October 2, 2026
+    <p class="meta">
+      <strong>Application:</strong>
+      SingStrument (com.singstrument)<br>
+
+      <strong>Developer:</strong>
+      Ammobe Studio<br>
+
+      <strong>Last Updated:</strong>
+      October 13, 2026
+    </p>
+  </header>
+
+  <div class="summary">
+    <strong>Privacy at a Glance</strong>
+
+    <p>
+      SingStrument is an on-device music creation
+      and transcription application.
+    </p>
+
+    <p>
+      Your microphone recordings, imported songs,
+      generated melodies, musical notes, and music
+      exports are processed locally on your device.
+    </p>
+
+    <p>
+      SingStrument does not upload these personal
+      music files to our Firebase backend during
+      recording, transcription, instrument synthesis,
+      or audio export operations.
+    </p>
+
+    <p>
+      Account authentication, official instrument
+      downloads, security verification, and selected
+      online services use Google Firebase and
+      Google Play services.
+    </p>
+
+    <p>
+      We do not sell your personal information
+      or personal audio recordings.
+    </p>
   </div>
-
 
   <h2>1. Overview</h2>
 
   <p>
-    <strong>SingStrument</strong> ("we", "our", "us", or "the app")
-    provides voice-to-note transcription, melody detection, musical instrument
-    playback, audio recording, MIDI/WAV export, and related music tools.
+    SingStrument ("the app", "we", "us", or "our")
+    is developed and operated by Ammobe Studio.
   </p>
 
   <p>
-    We are committed to protecting user privacy. Audio recordings, imported
-    songs, generated notes, MIDI files, exported audio, and user-imported
-    SoundFont files are designed to remain on the user's device and are not
-    uploaded to our Firebase database or Firebase Storage.
-  </p>
-
-
-  <h2>2. Audio, Voice & Music Processing</h2>
-
-  <p>
-    SingStrument may request microphone access so that users can sing, hum,
-    record audio, detect musical pitch, generate musical notes, and control
-    instrument playback.
+    The app provides voice-to-note transcription,
+    musical pitch detection, Indian Sargam and
+    Western note generation, instrument playback,
+    audio recording, music arrangements, custom
+    note input, and MIDI/WAV export.
   </p>
 
   <p>
-    Voice-to-note and melody analysis, including pitch detection and the app's
-    on-device transcription processing, is performed locally on the user's
-    device.
+    This Privacy Policy explains what information
+    SingStrument accesses, processes, stores,
+    transmits, and deletes.
   </p>
 
   <p>
-    <strong>
-      We do not upload users' microphone recordings, imported songs, generated
-      melodies, MIDI data, or raw voice recordings to Firebase.
-    </strong>
+    For privacy-related questions, contact:
+    <a href="mailto:singlovestrument@gmail.com">
+      singlovestrument@gmail.com
+    </a>.
   </p>
 
-
-  <h2>3. Local Recordings, Notes & Exported Files</h2>
+  <h2>2. Audio, Voice and Music Processing</h2>
 
   <p>
-    The following types of user-generated content are stored locally on the
-    user's device:
+    SingStrument may request microphone access
+    when you choose to record singing, humming,
+    or other audio.
   </p>
 
-  <ul>
-    <li>Voice and song recordings</li>
-    <li>Imported songs and audio files</li>
-    <li>Detected musical notes and Sargam</li>
-    <li>MIDI files</li>
-    <li>Generated WAV/audio files</li>
-    <li>Melody and transcription results</li>
-    <li>User-imported custom SoundFont (.sf2) files</li>
-  </ul>
+  <h3>2.1 Microphone Recording</h3>
 
   <p>
-    These files are not uploaded to our Firebase Firestore database or Firebase
-    Storage.
+    Audio recorded through the microphone is
+    processed locally for pitch analysis,
+    transcription, playback, and music creation.
   </p>
 
   <p>
-    Files that you explicitly export to locations such as your device's Music,
-    Downloads, or other public folders remain on your device until you remove
-    them.
+    Microphone recordings are not uploaded to
+    our Firebase backend as part of these
+    recording and processing features.
   </p>
 
-
-  <h2>4. Custom SoundFonts (.sf2)</h2>
-
-  <p>
-    Users may import their own SoundFont (.sf2) files for local instrument
-    playback.
-  </p>
+  <h3>2.2 Imported Audio Files</h3>
 
   <p>
-    User-imported SoundFonts remain stored locally on the user's device.
-    They are not uploaded to Firebase, shared with administrators, or made
-    available to other users.
-  </p>
-
-
-  <h2>5. Account Information</h2>
-
-  <p>
-    SingStrument uses Firebase Authentication to provide user accounts and
-    secure access to app services.
+    You may select supported audio files,
+    including formats such as MP3, WAV,
+    M4A, and AAC, for music analysis.
   </p>
 
   <p>
-    Depending on the authentication method used, we may receive and store
-    account information such as:
+    These files are decoded and processed
+    locally on your device.
+  </p>
+
+  <h3>2.3 AI Pitch and Melody Detection</h3>
+
+  <p>
+    SingStrument uses local audio-processing
+    and machine-learning technologies,
+    which may include:
   </p>
 
   <ul>
-    <li>Firebase user ID (UID)</li>
-    <li>Email address</li>
-    <li>Display name</li>
-    <li>Profile photo URL, if provided by the authentication provider</li>
-    <li>Account role, such as user or administrator</li>
-    <li>Account status</li>
-    <li>Account creation and last-login information</li>
+    <li>YIN pitch detection.</li>
+    <li>CREPE-related pitch analysis.</li>
+    <li>RMVPE neural pitch estimation.</li>
+    <li>ONNX Runtime.</li>
+    <li>Melody and note post-processing.</li>
   </ul>
 
   <p>
-    This information is used for authentication, account management, security,
-    administrator access control, and operation of the app.
+    These processing components run on the
+    user's device for supported workflows.
+    SingStrument does not send personal
+    recordings to Firebase for pitch inference.
   </p>
 
-
-  <h2>6. Firebase Services</h2>
-
-  <p>
-    SingStrument uses Firebase services provided by Google for limited backend
-    functionality.
-  </p>
-
-  <p>These services may include:</p>
-
-  <ul>
-    <li>
-      <strong>Firebase Authentication</strong> for user sign-in and account
-      identity.
-    </li>
-
-    <li>
-      <strong>Cloud Firestore</strong> for account/profile metadata,
-      administrator-related information, official instrument metadata,
-      application configuration, and security/audit records.
-    </li>
-
-    <li>
-      <strong>Firebase Storage</strong> for official app-managed instrument
-      SoundFont files that users may download after signing in.
-    </li>
-
-    <li>
-      <strong>Cloud Functions for Firebase</strong> for secure administrative
-      actions, account deletion, administrator role management, and protected
-      app configuration changes.
-    </li>
-
-    <li>
-      <strong>Firebase App Check / Google Play Integrity</strong> where enabled
-      to help protect Firebase services against unauthorized or abusive access.
-    </li>
-  </ul>
+  <h3>2.4 Generated Music and Exports</h3>
 
   <p>
-    Firebase is not used to store users' personal song recordings, imported
-    songs, transcription notes, MIDI exports, generated audio, or personal
-    SoundFont files.
-  </p>
-
-
-  <h2>7. Official Instrument Downloads</h2>
-
-  <p>
-    SingStrument may provide official instruments such as guitar, piano,
-    flute, harmonium, or other SoundFont-based instruments.
+    Musical notes, Sargam, MIDI data,
+    instrumental arrangements, and
+    generated audio are processed locally.
   </p>
 
   <p>
-    Official instrument files may be hosted using Firebase Storage and
-    downloaded to the user's device when selected.
+    When you export or share a file,
+    it may become accessible to another
+    application or service selected by you.
+    Such external services are governed
+    by their own privacy practices.
   </p>
 
-  <p>
-    Downloaded official instruments may be cached locally so they can be used
-    again without downloading them every time.
-  </p>
+  <h2>3. Local Data Storage</h2>
 
   <p>
-    User-created or user-imported SoundFonts are not uploaded to this official
-    instrument system.
-  </p>
-
-
-  <h2>8. Administrator Access</h2>
-
-  <p>
-    Authorized SingStrument administrators may access limited account and
-    operational information required to manage the service.
-  </p>
-
-  <p>This may include:</p>
-
-  <ul>
-    <li>User UID</li>
-    <li>Email address</li>
-    <li>Display name</li>
-    <li>Account status</li>
-    <li>User or administrator role</li>
-    <li>Account-related timestamps</li>
-  </ul>
-
-  <p>
-    Administrators may also manage official instruments, application defaults,
-    administrator permissions, and security audit information.
-  </p>
-
-  <p>
-    <strong>
-      Administrators do not have access through Firebase to users' locally
-      stored recordings, imported songs, generated notes, MIDI files, exported
-      audio, or personal SoundFont files.
-    </strong>
-  </p>
-
-
-  <h2>9. Permissions Used</h2>
-
-  <p>
-    Depending on the device and features being used, SingStrument may request
-    permissions including:
+    SingStrument may store the following
+    information locally on your device:
   </p>
 
   <ul>
-    <li>
-      <strong>Microphone / RECORD_AUDIO:</strong>
-      Used for recording, singing/humming input, pitch detection, melody
-      transcription, and live instrument functionality.
-    </li>
-
-    <li>
-      <strong>Media / File Access:</strong>
-      Used when the user chooses to import an audio file or SoundFont, or
-      export generated MIDI/audio files.
-    </li>
-
-    <li>
-      <strong>Internet Access:</strong>
-      Used for account authentication, Firebase communication, official
-      instrument downloads, administrator functionality, and application
-      configuration.
-    </li>
+    <li>Voice and microphone recordings.</li>
+    <li>Imported songs and audio files.</li>
+    <li>Generated musical notes and Sargam.</li>
+    <li>Saved melodies and music projects.</li>
+    <li>Custom note sequences.</li>
+    <li>MIDI files.</li>
+    <li>Generated WAV and other audio exports.</li>
+    <li>Downloaded SoundFont instruments.</li>
+    <li>User-imported SoundFont (.sf2) files.</li>
+    <li>Temporary processing files and caches.</li>
   </ul>
 
   <p>
-    Permissions are used only for the features that require them.
-  </p>
-
-
-  <h2>10. Account Deletion</h2>
-
-  <p>
-    Users may request deletion of their SingStrument account through the app's
-    account deletion feature.
+    Personal music files are not stored in
+    our Firebase Firestore database or
+    Firebase Storage as part of the
+    normal music-processing workflow.
   </p>
 
   <p>
-    When an account deletion request is successfully completed, the app's
-    backend deletes the associated Firebase Authentication account and the
-    user's cloud account/profile information, subject to information that may
-    need to be retained for security, fraud prevention, legal compliance, or
-    legitimate audit purposes.
+    Files explicitly exported to public
+    locations, such as Music/SingStrument
+    or Downloads, may remain on your
+    device until you delete them.
   </p>
 
   <p>
-    Because recordings, songs, notes, MIDI files, generated audio, and personal
-    SoundFonts are stored locally rather than in Firebase, cloud account
-    deletion does not represent deletion of files that the user has separately
+    Clearing app data or uninstalling
+    SingStrument may remove app-private
+    content, but may not remove files
     exported to public device storage.
   </p>
 
+  <h2>4. Account Information</h2>
+
+  <p>
+    SingStrument uses Firebase Authentication
+    and supported Google Sign-In services
+    to manage user accounts.
+  </p>
+
+  <p>
+    Depending on your authentication method,
+    we may process:
+  </p>
+
+  <ul>
+    <li>Firebase User ID (UID).</li>
+    <li>Email address.</li>
+    <li>Display name.</li>
+    <li>Profile photo URL.</li>
+    <li>Account role and status.</li>
+    <li>Account creation timestamp.</li>
+    <li>Last sign-in information.</li>
+    <li>Authentication and security metadata.</li>
+  </ul>
+
+  <p>
+    This information is used to provide
+    authentication, account management,
+    access control, security, and
+    supported online features.
+  </p>
+
+  <p>
+    Google manages your Google Account
+    authentication credentials.
+    We do not ask users to provide
+    their Google Account passwords
+    directly to our support team.
+  </p>
+
+  <h2>5. Firebase and Cloud Services</h2>
+
+  <p>
+    SingStrument uses selected Google
+    Firebase services for account-related
+    and online application functionality.
+  </p>
+
+  <h3>5.1 Firebase Authentication</h3>
+
+  <p>
+    Firebase Authentication manages
+    user authentication and identity.
+  </p>
+
+  <p>
+    It may automatically process technical
+    information such as IP addresses,
+    user-agent information, application
+    identifiers, and authentication
+    request metadata for service
+    operation and security.
+  </p>
+
+  <h3>5.2 Cloud Firestore</h3>
+
+  <p>
+    Cloud Firestore may store:
+  </p>
+
+  <ul>
+    <li>User profile metadata.</li>
+    <li>Account status and role information.</li>
+    <li>User instrument requests.</li>
+    <li>Official instrument metadata.</li>
+    <li>Application configuration.</li>
+    <li>Administrator and security records.</li>
+  </ul>
+
+  <p>
+    Cloud Firestore is not used as a
+    storage destination for personal
+    audio recordings or generated
+    musical exports.
+  </p>
+
+  <h3>5.3 Firebase Storage</h3>
+
+  <p>
+    Firebase Storage may host official
+    application resources, including
+    downloadable SoundFont instruments
+    and related resource files.
+  </p>
+
+  <p>
+    These files are downloaded to the
+    user's device when requested.
+  </p>
+
+  <p>
+    User-imported songs, personal
+    recordings, and generated music
+    are not uploaded to this official
+    instrument resource system.
+  </p>
+
+  <h3>5.4 Cloud Functions</h3>
+
+  <p>
+    Cloud Functions may support protected
+    account deletion, administrative
+    operations, instrument management,
+    and security-related workflows.
+  </p>
+
+  <h3>5.5 Firebase App Check and Play Integrity</h3>
+
+  <p>
+    Where enabled, Firebase App Check
+    and Google Play Integrity help protect
+    online resources against unauthorized
+    access and automated abuse.
+  </p>
+
+  <p>
+    These services may process app
+    identifiers, integrity tokens,
+    device or application metadata,
+    and other information necessary
+    for security verification.
+  </p>
+
+  <h2>6. Official Instrument Downloads</h2>
+
+  <p>
+    SingStrument provides downloadable
+    musical instruments that may include
+    piano, guitar, bansuri, harmonium,
+    saxophone, and other SoundFont-based
+    instruments.
+  </p>
+
+  <p>
+    Official instrument files may be
+    downloaded from Firebase Storage
+    through authenticated and protected
+    network requests.
+  </p>
+
+  <p>
+    Downloaded instruments may be
+    cached locally for repeated use.
+  </p>
+
+  <p>
+    Requests to online services may
+    include account, network, and
+    security information required
+    to deliver the requested files.
+  </p>
+
+  <p>
+    Personal SoundFonts imported by
+    users are not automatically uploaded
+    to the official instrument library.
+  </p>
+
+  <h2>7. Instrument Requests and Support</h2>
+
+  <p>
+    If you request a new instrument
+    through SingStrument, the app
+    may store the request and
+    associated account information.
+  </p>
+
+  <p>
+    Such information may include
+    your account identifier,
+    instrument request details,
+    and submission time.
+  </p>
+
+  <p>
+    If you contact our support team,
+    we may process your email address
+    and the information you choose
+    to include in your message.
+  </p>
+
+  <p>
+    Support information is used to
+    respond to requests, resolve
+    problems, and manage
+    account-related inquiries.
+  </p>
+
+  <h2>8. Data Sharing and Advertising</h2>
+
+  <p>
+    Ammobe Studio does not sell
+    personal information or personal
+    audio recordings.
+  </p>
+
+  <p>
+    Google Firebase and Google Play
+    services process relevant information
+    as service providers for the
+    functions described in this policy.
+  </p>
+
+  <p>
+    SingStrument does not currently
+    use personal audio recordings
+    for targeted advertising.
+  </p>
+
+  <p>
+    If our advertising, analytics,
+    or data-sharing practices change,
+    we will update our disclosures
+    as required.
+  </p>
+
+  <h2>9. Android Permissions</h2>
+
+  <p>
+    Depending on the Android version,
+    supported features, and device
+    configuration, SingStrument may
+    use the following permissions:
+  </p>
+
+  <h3>9.1 Microphone — RECORD_AUDIO</h3>
+
+  <p>
+    Used when you choose to record
+    singing, humming, or other audio.
+  </p>
+
+  <p>
+    Microphone access supports
+    recording, pitch detection,
+    and related audio-processing
+    features.
+  </p>
+
+  <p>
+    The app requests microphone
+    authorization through Android's
+    permission system.
+  </p>
+
+  <h3>9.2 Audio Files — READ_MEDIA_AUDIO</h3>
+
+  <p>
+    On Android 13 and newer,
+    READ_MEDIA_AUDIO may be used
+    when the app requires access
+    to audio files in the device's
+    shared media library.
+  </p>
+
+  <p>
+    This supports user-initiated
+    audio selection and import
+    for music transcription.
+  </p>
+
+  <p>
+    SingStrument may also use
+    Android's system file picker,
+    which provides access to
+    files explicitly selected
+    by the user.
+  </p>
+
+  <h3>9.3 Legacy File Permissions</h3>
+
+  <p>
+    On older Android versions,
+    legacy storage permissions
+    may be used where required
+    for compatible file access.
+  </p>
+
+  <p>
+    Modern Android versions use
+    supported file-selection and
+    media-saving APIs rather than
+    unrestricted storage access.
+  </p>
+
+  <h3>9.4 Foreground Service — FOREGROUND_SERVICE</h3>
+
+  <p>
+    On supported builds, Android
+    foreground-service functionality
+    may be used for active,
+    user-initiated operations that
+    need to continue running.
+  </p>
+
+  <p>
+    When an applicable foreground
+    service is active, Android
+    may display a system notification.
+  </p>
+
+  <p>
+    This permission does not
+    independently authorize
+    microphone recording.
+  </p>
+
+  <h3>9.5 Audio Settings — MODIFY_AUDIO_SETTINGS</h3>
+
+  <p>
+    Used where necessary to support
+    audio playback configuration
+    and instrument sound output.
+  </p>
+
+  <h3>9.6 Internet — INTERNET</h3>
+
+  <p>
+    Used for Google Sign-In,
+    Firebase authentication,
+    online security verification,
+    official instrument downloads,
+    and other supported
+    online services.
+  </p>
+
+  <p>
+    You can manage runtime permissions
+    through Android device settings.
+    Disabling a required permission
+    may prevent the related
+    feature from functioning.
+  </p>
+
+  <h2>10. Data Retention</h2>
+
+  <p>
+    Account-related cloud information
+    is retained while reasonably
+    necessary to operate the account
+    and provide the requested services.
+  </p>
+
+  <p>
+    Following a valid account-deletion
+    request, associated account and
+    profile information is deleted
+    through our applicable
+    deletion process.
+  </p>
+
+  <p>
+    Limited operational, security,
+    fraud-prevention, or legal
+    records may be retained when
+    necessary and legally permitted.
+  </p>
+
+  <p>
+    Such retention is limited
+    according to its legitimate
+    purpose and applicable
+    requirements.
+  </p>
+
+  <p>
+    Locally stored music files
+    and public exports follow
+    separate device-storage
+    lifecycles.
+  </p>
 
   <h2>11. Security</h2>
 
   <p>
-    We use reasonable technical safeguards designed to protect account and
-    application data.
+    We use reasonable technical
+    measures to protect
+    account-related information
+    and online services.
   </p>
 
-  <p>These safeguards may include:</p>
+  <p>
+    These may include:
+  </p>
 
   <ul>
-    <li>Firebase Authentication</li>
-    <li>Role-based access controls</li>
-    <li>Firebase Security Rules</li>
-    <li>Protected administrator Cloud Functions</li>
-    <li>Firebase App Check / Play Integrity</li>
-    <li>Restricted access to official instrument files</li>
-    <li>Administrative audit logging</li>
+    <li>Firebase Authentication.</li>
+    <li>Firebase Security Rules.</li>
+    <li>Role-based access controls.</li>
+    <li>Protected administrative functions.</li>
+    <li>Firebase App Check where enabled.</li>
+    <li>Encrypted connections to online services.</li>
   </ul>
 
   <p>
-    No method of electronic storage or transmission can be guaranteed to be
-    completely secure.
+    No system can guarantee
+    absolute security.
   </p>
 
-
-  <h2>12. Data Selling & Advertising</h2>
+  <h2>12. Account and Data Deletion</h2>
 
   <p>
-    <strong>We do not sell users' personal information or personal audio
-    recordings.</strong>
+    Users may request deletion
+    of their SingStrument account
+    and associated cloud
+    account information.
+  </p>
+
+  <h3>12.1 Delete Inside the App</h3>
+
+  <p>
+    If SingStrument is installed,
+    open Settings and locate
+    the account-deletion feature.
   </p>
 
   <p>
-    SingStrument does not upload personal song recordings to Firebase for
-    advertising purposes.
+    Follow the confirmation steps.
+    Reauthentication may be
+    required to verify ownership.
   </p>
 
+  <h3>12.2 Delete Without the App</h3>
+
+  <p>
+    If you have uninstalled
+    SingStrument, you can request
+    deletion through our
+    external webpage:
+  </p>
+
+  <p>
+    <a href="delete-account.html">
+      SingStrument Account Deletion Request
+    </a>
+  </p>
+
+  <p>
+    You may also contact:
+    <a href="mailto:singlovestrument@gmail.com">
+      singlovestrument@gmail.com
+    </a>.
+  </p>
+
+  <p>
+    We may verify your identity
+    before processing a request
+    to protect accounts against
+    unauthorized deletion.
+  </p>
+
+  <p>
+    The deletion process covers
+    associated Firebase account
+    and cloud profile information,
+    subject to legitimate and
+    disclosed retention requirements.
+  </p>
+
+  <p>
+    Files explicitly exported
+    to your device's public
+    storage may need to be
+    deleted separately by you.
+  </p>
 
   <h2>13. Children's Privacy</h2>
 
   <p>
-    SingStrument is not intended to knowingly collect personal information from
-    children in violation of applicable law.
+    SingStrument is not
+    specifically directed
+    at children under 13.
   </p>
 
   <p>
-    If you believe that a child has provided personal information improperly,
-    please contact us so that we can review the matter.
+    Use by minors is subject
+    to applicable age,
+    parental consent,
+    and regional requirements.
   </p>
 
+  <p>
+    If you believe that a
+    child has provided personal
+    information without any
+    legally required authorization,
+    please contact us.
+  </p>
+
+  <p>
+    We will review the request
+    and take appropriate action.
+  </p>
 
   <h2>14. Third-Party Services</h2>
 
   <p>
-    SingStrument relies on certain third-party platform services, including
-    Google Firebase and Google Play services, for authentication, security,
-    protected backend functionality, and delivery of official app resources.
+    SingStrument uses selected
+    services from Google and
+    Firebase for authentication,
+    resource delivery, and
+    security.
   </p>
 
   <p>
-    These third-party services may process limited technical or account
-    information according to their own privacy policies.
+    Please review their
+    privacy information:
   </p>
 
+  <ul>
+    <li>
+      <a href="https://policies.google.com/privacy">
+        Google Privacy Policy
+      </a>
+    </li>
 
-  <h2>15. Changes to This Privacy Policy</h2>
+    <li>
+      <a href="https://firebase.google.com/support/privacy">
+        Firebase Privacy and Security
+      </a>
+    </li>
+
+    <li>
+      <a href="https://firebase.google.com/terms">
+        Firebase Terms
+      </a>
+    </li>
+  </ul>
 
   <p>
-    We may update this Privacy Policy when the app's features, privacy
-    practices, or legal requirements change.
+    These services may collect
+    or process technical and
+    account information in
+    accordance with their
+    applicable policies.
+  </p>
+
+  <h2>15. Your Privacy Rights</h2>
+
+  <p>
+    Depending on applicable
+    law and your location,
+    you may have rights to:
+  </p>
+
+  <ul>
+    <li>Request information about your personal data.</li>
+    <li>Request correction of inaccurate account details.</li>
+    <li>Request deletion of your account and associated data.</li>
+    <li>Manage device permissions.</li>
+    <li>Contact us with privacy concerns.</li>
+  </ul>
+
+  <p>
+    To exercise applicable
+    privacy rights, contact
+    our support team at:
   </p>
 
   <p>
-    When this policy is updated, the "Last updated" date at the top of this
-    page will also be updated.
+    <a href="mailto:singlovestrument@gmail.com">
+      singlovestrument@gmail.com
+    </a>
   </p>
 
-
-  <h2>16. Contact Us</h2>
+  <h2>16. Changes to This Privacy Policy</h2>
 
   <p>
-    If you have questions, privacy concerns, or account-related requests,
-    contact:
+    We may update this Privacy
+    Policy when our services,
+    features, third-party
+    integrations, or legal
+    requirements change.
   </p>
 
   <p>
-    <strong>Email: singlovestrument.com</strong>
+    The latest revision date
+    will appear at the top
+    of this page.
   </p>
 
+  <p>
+    Where required, we will
+    provide appropriate
+    notification of material
+    privacy-policy changes.
+  </p>
+
+  <h2>17. Contact Us</h2>
+
+  <p>
+    For privacy inquiries,
+    account-deletion requests,
+    or questions about
+    SingStrument's data
+    practices, please contact:
+  </p>
+
+  <p>
+    <strong>Developer:</strong>
+    Ammobe Studio<br>
+
+    <strong>Application:</strong>
+    SingStrument<br>
+
+    <strong>Package:</strong>
+    com.singstrument<br>
+
+    <strong>Support Email:</strong>
+    <a href="mailto:singlovestrument@gmail.com">
+      singlovestrument@gmail.com
+    </a>
+  </p>
+
+  <footer>
+    <p>
+      &copy; 2026 Ammobe Studio.
+      All rights reserved.
+    </p>
+
+    <div class="nav-links">
+      <a href="index.html">Legal Home</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms.html">Terms &amp; Conditions</a>
+      <a href="delete-account.html">Delete Account</a>
+    </div>
+  </footer>
+
+</main>
 </body>
 </html>
